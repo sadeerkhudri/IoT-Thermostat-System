@@ -57,6 +57,11 @@ GPIO configuration in the current code:
 - Heater: GPIO 12
 - PN532 + LCD: I2C (SCL/SDA), LCD address 0x27
 
+## Hardware Schematic
+![Thermostat schematic](docs/schematic.png)
+
+> Designed in EasyEDA. Includes Raspberry Pi GPIO/I2C connections for PN532 + LCD, DHT11, NeoPixel matrix, buzzer, and fan/heater control.
+
 ---
 
 ## How It Works (high level)
