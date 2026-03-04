@@ -1,0 +1,110 @@
+#Thermo {
+ position: absolute;
+ left: 37.5%;
+ top: -7.5%;
+ color: #00fffe;
+ font-size: 10vmin;
+ text-decoration-line: underline;
+ font-family: "Lucida Handwriting", cursive;
+ animation: animate 1s ease-in-out infinite alternate;
+}
+#key {
+ position: absolute;
+ left: 35.5%;
+ top: 11%;
+ color: black;
+ font-size: 3vmin;
+ text-decoration-line: underline;
+ font-family: "Lucida Handwriting", cursive;
+}
+#dht11 {
+ position: absolute;
+ left: 46%;
+ top: 16%;
+ color: black;
+ font-size: 3vmin;
+ text-decoration-line: underline;
+ font-family: "Lucida Handwriting", cursive;
+}
+#desiredTempt {
+ position: absolute;
+ left: 39%;
+ top: 21%;
+ color: black;
+ font-size: 3vmin;
+ text-decoration-line: underline;
+ font-family: "Lucida Handwriting", cursive;
+}
+#tempReached {
+ position: absolute;
+ left: 35%;
+ top: 26%;
+ color: black;
+ font-size: 3vmin;
+ text-decoration-line: underline;
+ font-family: "Lucida Handwriting", cursive;
+}
+#weather {
+ position: absolute;
+ left: 33%;
+ bottom: 0%;
+ color: black;
+ font-size: 3vmin;
+ text-decoration-line: underline;
+ font-family: "Lucida Handwriting", cursive;
+}
+.passkey {
+ position: absolute;
+ top: 24%;
+ left: 47.5%;
+ cursor: pointer;
+ background-color: darkblue;
+ color: rgb(0, 211, 153);
+ font-size: 10px;
+}
+.desiredTemp {
+ position: absolute;
+ top: 34%;
+ left: 47.5%;
+ cursor: pointer;
+ background-color: darkblue;
+ color: rgb(0, 211, 153);
+ font-size: 10px;
+}
+.reset {
+ position: absolute;
+ top: 30%;
+ left: 42.5%;
+ cursor: pointer;
+ background-color: darkblue;
+ color: rgb(0, 211, 153);
+ font-size: 10px;
+}
+button:hover {
+ background-color: blue;
+ color: lightgreen;
+ font-size: 10px;
+}
+input[id=password] {
+ position: absolute;
+ left: 44%;
+ top: 20%;
+ border: 2px solid black;
+ border-radius: 4px;
+}
+input[id=desiredTemp] {
+ position: absolute;
+ left: 44%;
+ top: 30%;
+ border: 2px solid black;
+ border-radius: 4px;
+}
+@keyframes animate {
+ from {
+   text-shadow: 0 0 40px #0044ff;
+ }
+ to {
+   text-shadow: 0 0 40px #0044ff,
+     0 0 13px #0044ff;
+ }
+}
