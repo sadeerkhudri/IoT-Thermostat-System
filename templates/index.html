@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+  integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.4/socket.io.js"
+  integrity="sha512-aMGMvNYu8Ue4G+fHa359jcPb1u+ytAF+P2SCb+PxrjCdO3n3ZTxJ30zuH39rimUggmTwmh2u7wvQsDTHESnmfQ=="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="static/app.js"></script>
+<title>Thermostat</title>
+<link href="static/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<h1 id="Thermo">Thermostat</h1>
+<h3 id="key">Enter your Password or Scan your Key Card</h3>
+<input type="text" id="password">
+<button class="passkey" id="passkey" onclick="enterPassword()">Enter</button>
+<h3 id="dht11"></h3>
+<h3 id="desiredTempt"></h3>
+<h3 id="tempReached"></h3>
+<div id="tempContent"></div>
+<h3 id="weather"></h3>
+</body>
+
+</html>
